@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class LC406 {
     public int[][] reconstructQueue(int[][] people) {
@@ -19,24 +18,5 @@ public class LC406 {
         }
 
         return result.toArray(new int[0][0]);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(
-                Arrays.deepToString(new LC406().reconstructQueue(
-                        new int[][]{
-                                {9, 0},
-                                {7, 0},
-                                {1, 9},
-                                {3, 0},
-                                {2, 7},
-                                {5, 3},
-                                {6, 0},
-                                {3, 4},
-                                {6, 2},
-                                {5, 2},
-                        }
-                ))
-        );
     }
 }
