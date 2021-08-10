@@ -94,6 +94,7 @@
       <module fileurl="file://$PROJECT_DIR$/stock/stock.iml" filepath="$PROJECT_DIR$/stock/stock.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringtest/stringtest.iml" filepath="$PROJECT_DIR$/stringtest/stringtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/subSequence/subSequence.iml" filepath="$PROJECT_DIR$/subSequence/subSequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
     </modules>
   </component>
 </project>
