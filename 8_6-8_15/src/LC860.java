@@ -25,7 +25,6 @@ public class LC860 {
                 } else {
                     return false;
                 }
-
             }
         }
 
