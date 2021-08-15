@@ -80,6 +80,7 @@
       <module fileurl="file://$PROJECT_DIR$/8_6-8_15/8_6-8_15.iml" filepath="$PROJECT_DIR$/8_6-8_15/8_6-8_15.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" filepath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/backTrack/backTrack.iml" filepath="$PROJECT_DIR$/backTrack/backTrack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backTracking/backTracking.iml" filepath="$PROJECT_DIR$/backTracking/backTracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/binarySearch/binarySearch.iml" filepath="$PROJECT_DIR$/binarySearch/binarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/doublePointer/doublePointer.iml" filepath="$PROJECT_DIR$/doublePointer/doublePointer.iml" />
       <module fileurl="file://$PROJECT_DIR$/greedy/greedy.iml" filepath="$PROJECT_DIR$/greedy/greedy.iml" />
