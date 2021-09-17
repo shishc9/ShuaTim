@@ -91,6 +91,7 @@
       <module fileurl="file://$PROJECT_DIR$/leetcodeTim.iml" filepath="$PROJECT_DIR$/leetcodeTim.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkList/linkList.iml" filepath="$PROJECT_DIR$/linkList/linkList.iml" />
       <module fileurl="file://$PROJECT_DIR$/maxProfit/maxProfit.iml" filepath="$PROJECT_DIR$/maxProfit/maxProfit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mock/mock.iml" filepath="$PROJECT_DIR$/mock/mock.iml" />
       <module fileurl="file://$PROJECT_DIR$/monotonicStack/monotonicStack.iml" filepath="$PROJECT_DIR$/monotonicStack/monotonicStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/package/package.iml" filepath="$PROJECT_DIR$/package/package.iml" />
       <module fileurl="file://$PROJECT_DIR$/package2/package2.iml" filepath="$PROJECT_DIR$/package2/package2.iml" />
