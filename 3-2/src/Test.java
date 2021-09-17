@@ -1,47 +1,42 @@
 /**
  * @PackageName:PACKAGE_NAME
- * @Date:2021/3/2, 20:25
+ * @Date:2021/3/24, 19:09
  * @Auther:ShiShc
  */
 
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode random;
+
+    ListNode(int x ) {val = x;}
+}
+
+
 public class Test {
+
+    public static ListNode test (ListNode root) {
+//        if(root == null) return root;
+//
+//        ListNode node = root;
+//
+//        while(node != null) {
+//            ListNode clone = new ListNode(node.val);
+//            clone.next = node.next;
+//            node.next = clone;
+//            node = clone.next;
+//        }
+//
+//        node = root;
+//        ListNode clone = root.next;
+//        if(node != null) {
+//            while()
+//        }
+        return null;
+    }
+
+
     public static void main(String[] args) {
 
-        MyThread mt = new MyThread();
-        new Thread(mt).start();
-        new Thread(mt).start();
-
-        System.out.println("----------------");
-
-        new MyThread2().start();
-        new MyThread2().start();
     }
-
-    static class MyThread implements Runnable {
-        private int ticket = 5;
-        public void run() {
-            while(true) {
-                System.out.println("Runnable ticket = " + ticket--);
-                if(ticket < 0) {
-                    break;
-                }
-            }
-        }
-    }
-
-    static class MyThread2 extends Thread {
-        static int ticket = 5;
-        public void run() {
-            while(true) {
-                System.out.println("Thread ticket = " + ticket--);
-                if(ticket < 0) {
-                    break;
-                }
-            }
-        }
-
-
-    }
-
-
 }

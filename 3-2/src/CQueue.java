@@ -2,13 +2,13 @@ import java.util.Stack;
 
 /**
  * @PackageName:PACKAGE_NAME
- * @Date:2021/3/2, 23:13
+ * @Date:2021/3/25, 15:32
  * @Auther:ShiShc
  */
 
 public class CQueue {
 
-    Stack<Integer> A,B;
+    Stack<Integer> A, B;
 
     public CQueue() {
         A = new Stack<>();
@@ -20,22 +20,13 @@ public class CQueue {
     }
 
     public int deleteHead() {
-        if(A.isEmpty()) return -1;
-
         while(!A.isEmpty()) {
             B.push(A.pop());
         }
-
-        int result = B.pop();
-
+        int result = B.isEmpty() ? -1 : B.pop();
         while(!B.isEmpty()) {
             A.push(B.pop());
         }
-
         return result;
-    }
-
-    public static void main(String[] args) {
-
     }
 }
